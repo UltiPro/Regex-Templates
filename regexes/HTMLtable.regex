@@ -1,0 +1,25 @@
+Regex:
+
+    (?x)
+    (?<=<td>)
+    [^<>]+
+
+Example:
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Any data</th>
+        </tr>
+        <tr>
+            <td>Jhon</td>
+            <td>Smith</td>
+            <td>Apple</td>
+        </tr>
+        <tr>
+            <td>Joe</td>
+            <td>Smith</td>
+            <td>Orange</td>
+        </tr>
+    </table>
