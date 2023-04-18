@@ -13,4 +13,4 @@ Example:
 
 Description:
 
-    International standard of phone number for .
+    International phone number standard for most countries in the world.
