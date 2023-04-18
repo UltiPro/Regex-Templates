@@ -10,4 +10,4 @@ Example:
 
 Description:
 
-    It removes comma and gets rest of data.
+    It skip comma and line feed then gets rest of data.
