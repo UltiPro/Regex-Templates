@@ -17,10 +17,12 @@ Example:
     Visa:
         4012888877778778
         4012-8888-7777-8778
+        4012/8888/7777/8778
 
     MasterCard:
         5555555555554444
         5555-5555-5555-4444
+        5555/5555/5555/4444
 
     Visa, MasterCard, American Express, Diners Club, Discover, JCB:
         4012888877778778
