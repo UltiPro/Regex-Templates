@@ -1,0 +1,25 @@
+Regex:
+
+    (?=.*?[a-zA-Z\d])[a-zA-Z][a-zA-Z\d_-]{2,28}[a-zA-Z\d]
+
+Example:
+
+    example1234
+    Example1234
+    Example-1234
+    Example_1234
+    Example123-example
+    e1234
+    E1234
+
+Description:
+
+    Login Conditions:
+        - Must contain at least 4 characters and be no more than 30 characters long.
+        - Must start with a letter (uppercase or lowercase).
+        - Can contain numbers.
+        - Can contain a floor (_) or dash (-).
+        - Must end with a letter or number.
+
+    Example Error Message:
+        The login must be between 4 and 30 characters long and must start with a letter and end with a letter or number. May contain a floor and a dash between the start and end.
