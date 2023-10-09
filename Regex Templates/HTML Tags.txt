@@ -1,0 +1,16 @@
+Regex:
+
+    <(?:([A-Za-z][A-Za-z0-9]*)\b[^>]*>.*?<\/\1>|[A-Za-z][A-Za-z0-9]*\b[^>]* \/>)
+
+Example:
+
+    <em>Example</em>
+    <b>Bold Example</b>
+    <i>Italic Example</i>
+    <img src="example/example.jpg" alt="Alternate image example" />
+    <strong id="foo" class="foo">Some example</strong>
+    <ht />
+
+Description:
+
+    Captures HTML tags with their content.
