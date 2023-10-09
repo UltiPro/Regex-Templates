@@ -166,4 +166,4 @@ Example:
 
 Description:
 
-    Country standard of postal (zip) code.
+    The postal (zip) code standard for a given country.
