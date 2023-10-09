@@ -1,4 +1,10 @@
 # Regex-Templates
 Regex Templates created by Patryk 'UltiPro' Wójtowicz using Regex.
 
-> To use regex for single string use "^" and "$" to specify start and end of string. For example ^regex$. Regexes are in the "Regexes" folder.
+The repository contains regex templates in order to collect them in one place and demonstrate their use.
+
+# Usage
+
+To use a regular expression for an entire single string, use "^" and "$". For example, for the nickname regular expression:
+
+> ^[a-zA-Z]\w{2,15}$
