@@ -22,4 +22,4 @@ Example:
 
 Description:
 
-    International standard of URL address.
+    International standard for URL addresses.
