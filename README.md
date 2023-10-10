@@ -5,6 +5,6 @@ The repository contains regex templates in order to collect them in one place an
 
 # Usage
 
-To use a regular expression for an entire single string, use "^" and "$". For example, for the nickname regular expression:
+In each file, there is a regex and examples with descriptions. To use a regular expression for an entire single string, use at the beginning "^" and at the end "$". Example:
 
 > ^[a-zA-Z]\w{2,15}$
